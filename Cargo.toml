@@ -1,0 +1,12 @@
+[package]
+name = "aa_liquidity_mgmt_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { version = "0.2.1", features = ["full"] }
+axum = "0.7.5"
+dotenv = "0.15.0"
+eyre = "0.6.12"
+serde = { version = "1.0.208", features = ["derive"] }
+tokio = { version = "1.39.3", features = ["full"] }
