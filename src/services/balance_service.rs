@@ -1,6 +1,6 @@
 use alloy::providers::{Provider, ProviderBuilder};
 use alloy::primitives::{Address,utils::format_units};
-use eyre::{Result, Ok};
+use eyre::{Result};
 use std::env;
 
 pub async fn get_balance_on_chain(_address: String, _token: String) -> Result<String> {
