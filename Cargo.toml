@@ -4,9 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-alloy = { version = "0.2.1", features = ["full"] }
-axum = "0.7.5"
+alloy = { version = "0.4.2", features = ["full"] }
+alloy-provider = { version = "0.4.2", features = ["erc4337-api"] }
+alloy-rpc-types-eth = "0.4.2"
+alloy-rpc-client = "0.4.2"
+alloy-transport = "0.4.2"
+axum = "0.7.7"
 dotenv = "0.15.0"
 eyre = "0.6.12"
-serde = { version = "1.0.208", features = ["derive"] }
-tokio = { version = "1.39.3", features = ["full"] }
+serde = { version = "1.0.210", features = ["derive"] }
+tokio = { version = "1.40.0", features = ["full"] }
+log = "0.4.14"
